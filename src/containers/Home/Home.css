@@ -1,0 +1,41 @@
+.Home {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	color: #333;
+	background-color: #eee;
+	overflow: hidden;
+}
+
+.Home-clapper {
+	width: 100%;
+	height: 23.6%;
+}
+.Home-production {
+	width: 100%;
+	height: 14.6%;
+	border-bottom: 2px solid #222;
+}
+.Home-cinematography {
+	width: 100%;
+	height: 38.2%;
+	border-top: 2px solid #222;
+	border-bottom: 2px solid #222;
+	display: flex;
+}
+.Home-infos {
+	width: 100%;
+	height: 23.6%;
+	border-top: 2px solid #222;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Home-attr {
+	color: #333;
+	padding: 0 20px;
+}
+

@@ -1,0 +1,47 @@
+.clapper {
+	width: 100%;
+	height: 100%;
+    background-color: #ccc;
+}
+
+.clapper-upper,.clapper-lower {
+	width: 100%;
+	height: 50%;	
+	position: relative;
+}
+.clapper-upper-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+    background-image: linear-gradient(60deg,
+                      #fff 5%, #000 5%,   
+                      #000 15%, #fff 15%,
+                      #fff 25%, #000 25%,   
+                      #000 35%, #fff 35%,
+                      #fff 45%, #000 45%, 
+                      #000 55%, #fff 55%,
+                      #fff 65%, #000 65%,
+                      #000 75%, #fff 75%,
+                      #fff 85%, #000 85%,
+                      #000 95%, #fff 95%,
+                      #fff);
+}
+.clapper-lower-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+    background-image: linear-gradient(-60deg,
+                      #fff 5%, #000 5%,   
+                      #000 15%, #fff 15%,   
+                      #fff 25%, #000 25%,
+                      #000 35%, #fff 35%,   
+                      #fff 45%, #000 45%,
+                      #000 55%, #fff 55%, 
+                      #fff 65%, #000 65%,
+                      #000 75%, #fff 75%,
+                      #fff 85%, #000 85%,
+                      #000 95%, #fff 95%,
+                      #fff);
+}

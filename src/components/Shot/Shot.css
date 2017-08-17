@@ -1,0 +1,18 @@
+.shot {
+	height: 100%;
+	flex: 0 1 34%;
+	border-left: 4px solid #222;
+	border-right: 4px solid #222;
+	display: flex;
+	flex-direction: column;
+}
+
+.shot .Home-attr {
+	padding: 10px 20px;
+} 
+.shot .Home-input {
+	flex: 0 1 100%;
+	width: 100%;
+	text-align: center;
+    font-size: 8rem;
+}

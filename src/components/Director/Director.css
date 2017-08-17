@@ -1,0 +1,16 @@
+.director {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.director .Home-attr {
+    flex: 0 0 160px;
+} 
+.director .Home-input {
+    flex: 0 1 100%;
+    font-size: 1.4rem;
+    height: 2rem;
+    line-height: 2rem;
+}
