@@ -48,7 +48,7 @@ class Shot extends Component {
                     SHOT
                 </div>
                 {
-                    this.props.shot != undefined && 
+                    this.props.shot !== undefined && 
                     <input className="Home-input" type="number" value={this.props.shot} onChange={this.handleInput}/>   
                 }                
             </div>

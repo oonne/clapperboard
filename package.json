@@ -2,6 +2,7 @@
   "name": "clapperboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/clapperboard/build/",
   "dependencies": {
     "autoprefixer": "7.1.1",
     "babel-core": "6.25.0",

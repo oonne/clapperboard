@@ -1,4 +1,3 @@
-import config from './../config';
 
 export const SCENE = Symbol('SCENE');
 export const SHOT = Symbol('SHOT');

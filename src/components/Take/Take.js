@@ -46,7 +46,7 @@ class Take extends Component {
                     TAKE
                 </div>
                 {
-                    this.props.take != undefined && 
+                    this.props.take !== undefined && 
                     <input className="Home-input" type="number" value={this.props.take} onChange={this.handleInput}/>   
                 }   
             </div>

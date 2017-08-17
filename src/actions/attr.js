@@ -1,4 +1,3 @@
-import config from './../config';
 
 export const PRODUCTION = Symbol('PRODUCTION');
 export const DIRECTOR = Symbol('DIRECTOR');

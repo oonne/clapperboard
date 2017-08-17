@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import Clapper from '../../components/Clapper/Clapper';
 import Production from '../../components/Production/Production';
 import Director from '../../components/Director/Director';

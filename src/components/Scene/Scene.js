@@ -50,7 +50,7 @@ class Scene extends Component {
                     SCENE
                 </div>
                 {
-                    this.props.scene != undefined && 
+                    this.props.scene !== undefined && 
                     <input className="Home-input" type="number" value={this.props.scene} onChange={this.handleInput}/>   
                 }   
             </div>
