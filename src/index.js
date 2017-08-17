@@ -35,7 +35,7 @@ ReactDOM.render(
 			<App>
 				<Switch>
 			        <Route path="/" component={Home} exact strict />
-			        <Route path="/home" component={Home} exact strict />
+			        <Route path="/clapperboard/build/" component={Home} exact strict />
 				</Switch>
 			</App>
 		</ConnectedRouter>
