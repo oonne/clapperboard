@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import crack from "./../../assets/crack.mp3";
 import './Clapper.css';
 
 const g = 2;
@@ -23,9 +24,13 @@ class Clapper extends Component {
             this.setState({distacne: distance});
             setTimeout(this.clapperDrop, 17);
         } else {
-            // TODO
-            console.log('がちゃん！');
+            this.play();
         }
+    }
+
+    play = () => {
+        let audio = this.refs.audio;
+        audio.play();
     }
 
     touchStart = (e) => {
@@ -51,6 +56,7 @@ class Clapper extends Component {
     render() {
         return (
             <div className="clapper">
+                <audio ref="audio" src={crack} preload="auto" />
                 <div className="clapper-upper">
                     <div className="clapper-upper-content" 
                          style={{bottom: this.state.distacne}}
