@@ -6,7 +6,7 @@ class App extends Component {
 
     disableScroll(event) {
         event.preventDefault();
-    }
+    };
     
     render() {
         return (

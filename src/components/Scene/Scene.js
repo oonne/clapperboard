@@ -16,7 +16,7 @@ class Scene extends Component {
 
     static defaultProps = {
         scene: 1
-    }
+    };
 
     changeScene(scene) {
         if (scene !== null) {

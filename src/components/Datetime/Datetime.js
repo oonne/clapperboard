@@ -29,14 +29,14 @@ class Datetime extends Component {
         let ss = date.getSeconds();
         fotmatDate = y + '-' + m + '-' + d + ' ' + hh + ':' + mm + ':' + ss;
         return fotmatDate;
-    }
+    };
 
     updateTime() {
         let vm = this;
         setInterval(function () {
             vm.setState({datetime: vm.getNowDate()});
         }, 1000);
-    }
+    };
 
     componentDidMount() {
         this.updateTime();

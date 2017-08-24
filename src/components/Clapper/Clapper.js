@@ -26,12 +26,12 @@ class Clapper extends Component {
         } else {
             this.play();
         }
-    }
+    };
 
     play = () => {
         let audio = this.refs.audio;
         audio.play();
-    }
+    };
 
     touchStart = (e) => {
         startPosition = e.changedTouches[0].clientY-this.state.distacne;
@@ -59,18 +59,18 @@ class Clapper extends Component {
                 <audio ref="audio" src={crack} preload="auto" />
                 <div className="clapper-upper">
                     <div className="clapper-upper-content" 
-                         style={{bottom: this.state.distacne}}
-                         onTouchStart={this.touchStart} 
-                         onTouchMove={this.touchMoveUpper} 
-                         onTouchEnd={this.touchEnd}>
+                        style={{bottom: this.state.distacne}}
+                        onTouchStart={this.touchStart} 
+                        onTouchMove={this.touchMoveUpper} 
+                        onTouchEnd={this.touchEnd}>
                     </div>
                 </div>
                 <div className="clapper-lower">
                     <div className="clapper-lower-content" 
-                         style={{top: this.state.distacne}}
-                         onTouchStart={this.touchStart} 
-                         onTouchMove={this.touchMoveLower} 
-                         onTouchEnd={this.touchEnd}>
+                        style={{top: this.state.distacne}}
+                        onTouchStart={this.touchStart} 
+                        onTouchMove={this.touchMoveLower} 
+                        onTouchEnd={this.touchEnd}>
                     </div>
                 </div>
             </div>

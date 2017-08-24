@@ -16,7 +16,7 @@ class Take extends Component {
 
     static defaultProps = {
         take: 1
-    }
+    };
 
     changeTake(take) {
         if (take !== null) {

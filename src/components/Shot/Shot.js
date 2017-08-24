@@ -16,7 +16,7 @@ class Shot extends Component {
 
     static defaultProps = {
         shot: 1
-    }
+    };
 
     changeShot(shot) {
         if (shot !== null) {
